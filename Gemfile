@@ -10,16 +10,17 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0'         
 gem 'bootstrap-sass' 
 
-Group :development, :test do 
+group :development, :test do 
 	gem 'sqlite3'
 end
 
-Group :production do
+group :production do
 	gem 'pg'
 	gem 'rails_12factor'
 end
 
  group :doc do
-# Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
+# Spring speeds up development by keeping your application 
+# running in the background. Read more: https://github.com/rails/spring
 gem 'spring',        group: :development
 end
