@@ -1,11 +1,16 @@
-<div class="jumbotron right">
-	<h1>Welcome to Mó Kamba app</h1>
-	<% if user_signed_in? %>
-		# do something
-	
-		<p>
-			<%= link_to "Log in", new_user_session_path, class: "btn-default btn-lg" %>
-			<%= link_to "Sign up", new_user_registration_path, class: "btn-primary btn-lg active" %>
-		</p>
-	<% end %>
+<div class="jumbotron center">
+     <ul>
+     	<h1>Welcome to Mó Kamba!</h1>
+     </ul>
+     <ul>
+     	<h2>Bem vindos ao Mó Kamba!</h2>
+     </ul>
+     <% if user_signed_in? %>
+          # do something
+     <% else %>
+       <p>
+         <%= link_to "Log in", new_user_session_path, class: "btn btn-default btn-lg" %>
+         <%= link_to "Sign up", new_user_registration_path, class: "btn btn-primary btn-lg" %>
+       </p>
+  <% end %>  
 </div>
