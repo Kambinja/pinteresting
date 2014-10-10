@@ -1,16 +1,12 @@
 <div class="jumbotron center">
-     <ul>
-     	<h1>Welcome to Mó Kamba!</h1>
-     </ul>
-     <ul>
-     	<h2>Bem vindos ao Mó Kamba!</h2>
-     </ul>
+     <h2>Welcome to Mo-Kamba!</h2>
      <% if user_signed_in? %>
-          # do something
-     <% else %>
-       <p>
-         <%= link_to "Log in", new_user_session_path, class: "btn btn-default btn-lg" %>
-         <%= link_to "Sign up", new_user_registration_path, class: "btn btn-primary btn-lg" %>
-       </p>
-  <% end %>  
+     		#do something
+     	<% else %>
+     <p>
+      
+       <%= link_to "Log in", new_user_session_path, class: "btn btn-default btn-md" %>
+         <%= link_to "Sign up", new_user_registration_path, class: "btn btn-primary btn-md" %>
+  </p>
+  <% end %>    
 </div>

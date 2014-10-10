@@ -1,10 +1,9 @@
-Pinteresting::Application.routes.draw do
+Rails.application.routes.draw do
   resources :pins
 
   devise_for :users
-  devise_for :installs
   root "pages#home"
-  get "about" => "pages#about" # this creates the home page = root_path about_path. 
+  get "about" => "pages#about"
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

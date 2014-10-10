@@ -1,6 +1,7 @@
-# One Month Rails
+pinterest_b
+===========
 
-This is the pinteresting sample applications for
-[*One Month Rails*](http://onemonthrails.com)
+One Month Rails course app
+# One Month Rails
 
 by [Candido Mendes](https://www.facebook.com/ck.mendes)
