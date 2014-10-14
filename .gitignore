@@ -15,3 +15,5 @@
 /log/*.log
 /tmp
 .DS_Store
+#git 2 ignore images (in the case) loaded in pub folder
+/public/system/*
