@@ -14,6 +14,8 @@ gem 'devise'
 gem 'paperclip'
 gem 'aws-sdk', '~> 1.55.0' 
 gem 'masonry-rails' #to style the pins
+gem 'will_paginate', '~> 3.0'
+gem 'will_paginate-bootstrap'
 
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0',          group: :doc
